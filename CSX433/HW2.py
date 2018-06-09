@@ -105,4 +105,9 @@ print("Before converting, B:",B)
 B = np.array( [str(i) for i in B.flatten().tolist()[0] ],dtype="string").reshape(4,3)
 print("Before converting, B:",B)
 
+## 15. Display a text on the screen: 'Your Name is done with HW2'
+print("## 15. Display a text on the screen: 'Your Name is done with HW2'")
+
+print("Jiang Li is done with HW2")
+
 
