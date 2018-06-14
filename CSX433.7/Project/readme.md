@@ -5,7 +5,14 @@
 
 ## Goal
 
-- We will use Tensorflow to do ML analysis
+We will use Python/Tensorflow to do ML analysis
+
+- Exploratory Data Analysis(EDA): Looking at features which will include
+    - What is the missing value for each of the feature
+    - What is the correlations between each feature
+- Transform the data: Given EDA result, transform the feature data to make it work for the ML Pipeline
+- ML Analysis: use the feature to predict whether a **Pump**is functional or not
+
 
 ## Challenge Summary
 ![](http://drivendata.materials.s3.amazonaws.com/pumps/pumping.jpg)
